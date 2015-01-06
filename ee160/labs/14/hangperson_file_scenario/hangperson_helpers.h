@@ -1,0 +1,10 @@
+int display_rules(int amount_of_guesses);
+char get_phrase(char phrase[]);
+char get_guesses();
+void saving_phrase(char phrase[]);
+void amount_of_guesses_tracker(int* amount_of_guesses, int flag, int* right_answer_counter, int* index);
+void letter_count(char phrase[], int* number_of_letters);
+void guess_evaluator(char phrase[], char letter, int number_of_letters, int* flag, int* duplicate_letters);
+void guess_tracker(char guesses[], int number_of_letters_with_duplicate);
+void display_guesses(char guesses[]); 
+void display_phrase(char phrase[]);
